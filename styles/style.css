@@ -4,6 +4,11 @@
     color: white;
     font-family: 'Manrope', sans-serif;
     font-size: 72px;
+    text-shadow:  0 0 7px #fff, 
+             0 0 10px #fff, 
+             0 0 22px rgb(202, 19, 226),   
+             0 0 57px rgb(202, 19, 226), 
+             0 0 80px rgb(202, 19, 226) 
 
 }
 
@@ -15,10 +20,11 @@
 
 .button-explore{
     background-color: white;
+    border: none;
 }
 
 .button-explore:hover{
-    background-color: red;
+    background-color: black;
 }
 
 .ctn a{
@@ -27,5 +33,29 @@
     font-size: 48px;      
 }
 
+.img-card{
+    width: 400px;
+    height: auto;
+}
 
+.img-carousel{
+    width: 400px;
+    height: auto;
+}
 
+.photos{
+    background-color: rgb(166, 130, 255, 0.75);
+}
+
+.text-center h1{
+    font-family: 'Manrope', sans-serif;    
+}
+
+.p-4 h3,p,a{
+    font-family: 'Manrope', sans-serif;
+}
+
+.unique-nft{
+    color: white;
+
+}
