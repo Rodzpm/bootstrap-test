@@ -1,9 +1,31 @@
-body{
-    background-color: black;
-};
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@600&display=swap');
 
-.object-toolbar a{
-    text-decoration: none;
+.jumbo{
     color: white;
-};
+    font-family: 'Manrope', sans-serif;
+    font-size: 72px;
+
+}
+
+.sub-jumbo{
+    color: white;
+    font-family: 'Manrope', sans-serif;
+    font-size: 24px;    
+}
+
+.button-explore{
+    background-color: white;
+}
+
+.button-explore:hover{
+    background-color: red;
+}
+
+.ctn a{
+    color: black;
+    font-family: 'Manrope', sans-serif;
+    font-size: 48px;      
+}
+
+
 
